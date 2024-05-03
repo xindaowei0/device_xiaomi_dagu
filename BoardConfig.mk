@@ -13,11 +13,11 @@ ALLOW_MISSING_DEPENDENCIES := true
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
-    vendor \
-    odm \
-    system \
     product \
-    system_ext
+    system_ext \
+    vendor \
+    system \
+    odm
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
@@ -95,5 +95,3 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
-TW_DEFAULT_LANGUAGE := zh_CN
-TW_EXTRA_LANGUAGES := true

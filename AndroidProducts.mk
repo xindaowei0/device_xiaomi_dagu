@@ -6,7 +6,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_dagu.mk
+    $(LOCAL_DIR)/omni_dagu.mk \
+    $(LOCAL_DIR)/twrp_dagu.mk \
 
 COMMON_LUNCH_CHOICES := \
     omni_dagu-user \

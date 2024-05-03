@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/dagu/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := elish
+PRODUCT_DEVICE := dagu
 PRODUCT_NAME := twrp_dagu
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Xiaomi Pad 5 Pro 12.4

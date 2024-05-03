@@ -1,8 +1,8 @@
 [
   {
-    "remote":"omnirom",
+    "remote":"xindaowei0",
     "repository": "android_vendor_qcom_opensource_commonsys",
     "target_path": "vendor/qcom/opensource/commonsys",
-    "revision":"android-11.0"
+    "revision":"android-13"
   }
 ]

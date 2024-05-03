@@ -1,8 +1,12 @@
 [
   {
+<<<<<<< HEAD
+    "remote":"xindaowei0",
+=======
     "remote":"xindaowei1",
+>>>>>>> a3588d0bd0f73034b8741b256ff4852f3bfa3fec
     "repository": "android_vendor_qcom_opensource_commonsys",
     "target_path": "vendor/qcom/opensource/commonsys",
-    "revision":"android-11.0"
+    "revision":"android-13"
   }
 ]

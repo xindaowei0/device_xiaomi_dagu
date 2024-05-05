@@ -10,6 +10,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_dagu.mk 
 
 COMMON_LUNCH_CHOICES := \
-    omni_dagu-user 
-    omni_dagu-userdebug 
+    twrp_dagu-user \
+    twrp_dagu-userdebug \
+    twrp_dagu-eng 
+    omni_dagu-user \
+    omni_dagu-userdebug \
     omni_dagu-eng
